@@ -17,6 +17,7 @@ body {
 main {
   width: 60%;
   min-width: 311px;
+  max-width: 635px;
   margin: 20px 0;
   border-radius: 5px;
   overflow: hidden;
@@ -110,4 +111,18 @@ footer {
 footer a {
   text-decoration: none;
   color: black;
+}
+@media (min-width: 700px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .join {
+    padding: 40px;
+  }
+  .signup,
+  .whyus {
+    width: 50%;
+    padding: 40px;
+  }
 }
